@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Harcama Takip Uygulaması</string>
+
+    <string name="onboardingScreenText1">İşte Harcama Takip Uygulamanız</string>
+    <string name="onboardingScreenText2">Artık Karışıklığa Son</string>
+    <string name="onboardingScreen2Text1">Kolayca Dönüştür</string>
+    <string name="onboardingScreen2Text2">Harcamalarını guruplandırarak kolayca izle</string>
+    <string name="onboardingScreen3Text1">Farklı Para Birimlerine Dönüştür</string>
+    <string name="onboardingScreen3Text2">Harcamalarını TL Dolar Euro Sterlin para birimleriyle güncel kur üzerinden takip et</string>
+
+
+    <string name="fatura">Fatura</string>
+    <string name="kira">Kira</string>
+    <string name="diger">Diğer</string>
+    <string name="TurkLiras">TL</string>
+    <string name="Dolar">Dolar</string>
+    <string name="Sterlin">Sterlin</string>
+    <string name="Euro">Euro</string>
+
+    <string name="radioButtonKadin">Kadın</string>
+    <string name="radioButtonErkek">Erkek</string>
+    <string name="radioButtonBelirtmekIstemiyorum">Belirtmek İstemiyorum</string>
+    <string name="harcama_ekle">Harcama Ekle</string>
+    <string name="aciklama">Açıklama</string>
+    <string name="harcama">Harcama</string>
+    <string name="ekle">Harcama Ekle</string>
+    <string name="harcama_detayi">Harcama Detayı</string>
+    <string name="elektrik">Elektrik</string>
+</resources>
