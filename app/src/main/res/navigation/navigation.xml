@@ -39,8 +39,8 @@
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_mainFragment_to_changingUserFragment"
-            app:destination="@id/changingUserFragment"
+            android:id="@+id/action_mainFragment_to_changeUserFragment"
+            app:destination="@id/changeUserFragment"
             app:enterAnim="@android:anim/fade_in"
             app:popUpToInclusive="false" />
         <action
@@ -56,16 +56,16 @@
 
     </fragment>
     <fragment
-        android:id="@+id/changingUserFragment"
+        android:id="@+id/changeUserFragment"
         android:name="com.haksoft.androidbootchamp.Fragments.ChangeUserFragment"
-        android:label="fragment_changing_user"
+        android:label="fragment_change_user"
         tools:layout="@layout/fragment_change_user" >
         <action
-            android:id="@+id/action_changingUserFragment_to_mainFragment"
+            android:id="@+id/action_changeUserFragment_to_mainFragment"
             app:destination="@id/mainFragment"
             app:enterAnim="@android:anim/fade_in"
             app:launchSingleTop="true"
-            app:popUpTo="@id/changingUserFragment"
+            app:popUpTo="@id/changeUserFragment"
             app:popUpToInclusive="true">
 
         </action>

@@ -50,7 +50,7 @@ class ChangeUserFragment : Fragment() {
 
 
 
-            val action = ChangingUserFragmentDirections.actionChangingUserFragmentToMainFragment()
+            val action = ChangeUserFragmentDirections.actionChangeUserFragmentToMainFragment()
             Navigation.findNavController(binding.root).navigate(action)
 
         }

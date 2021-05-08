@@ -230,7 +230,7 @@ class MainFragment : Fragment() {
 
 
         cardViewToChangingUserFragment.setOnClickListener {
-            findNavController().navigate(R.id.action_mainFragment_to_changingUserFragment)
+            findNavController().navigate(R.id.action_mainFragment_to_changeUserFragment)
 
         }
         buttonEkle.setOnClickListener {
