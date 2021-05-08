@@ -18,12 +18,12 @@ import com.haksoft.androidbootchamp.Activity.MainActivity
 import com.haksoft.androidbootchamp.Database.Payment
 import com.haksoft.androidbootchamp.ViewModel.PaymentViewModel
 import com.haksoft.androidbootchamp.R
-import com.haksoft.androidbootchamp.databinding.FragmentUploadBinding
+import com.haksoft.androidbootchamp.databinding.FragmentAddspendBinding
 
 
-class UploadFragment : Fragment() {
+class AddspendFragment : Fragment() {
 
-    private lateinit var binding: FragmentUploadBinding
+    private lateinit var binding: FragmentAddspendBinding
     var radioButtonHarcama = R.drawable.ic_outline_maps_home_work_24
     var radioButtonPara = " "
     lateinit var preferences : SharedPreferences
@@ -33,7 +33,7 @@ class UploadFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val binding = FragmentUploadBinding.inflate(inflater, container, false)
+        val binding = FragmentAddspendBinding.inflate(inflater, container, false)
         mPaymentViewModel = ViewModelProvider(this).get(PaymentViewModel::class.java)
         val toolbar: Toolbar = binding.toolBar
         val buttonUploadEkle: Button = binding.buttonUploadEkle

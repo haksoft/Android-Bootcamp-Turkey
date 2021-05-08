@@ -9,16 +9,16 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.fragment.findNavController
 import com.haksoft.androidbootchamp.R
-import com.haksoft.androidbootchamp.databinding.FragmentOnBoardingScreenLastBinding
+import com.haksoft.androidbootchamp.databinding.FragmentOnBoardingScreenTreeBinding
 
 
-class OnBoardingScreenLast : Fragment() {
-    private lateinit var binding :  FragmentOnBoardingScreenLastBinding
+class OnBoardingScreenTree : Fragment() {
+    private lateinit var binding :  FragmentOnBoardingScreenTreeBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentOnBoardingScreenLastBinding.inflate(inflater,container,false)
+        val binding = FragmentOnBoardingScreenTreeBinding.inflate(inflater,container,false)
         val lastButtonOnBaordingScreen : Button = binding.buttonLastOnBoarding
         lastButtonOnBaordingScreen.setOnClickListener {
             findNavController().navigate(R.id.action_viewPagerFragment_to_mainFragment)

@@ -57,9 +57,9 @@
     </fragment>
     <fragment
         android:id="@+id/changingUserFragment"
-        android:name="com.haksoft.androidbootchamp.Fragments.ChangingUserFragment"
+        android:name="com.haksoft.androidbootchamp.Fragments.ChangeUserFragment"
         android:label="fragment_changing_user"
-        tools:layout="@layout/fragment_changing_user" >
+        tools:layout="@layout/fragment_change_user" >
         <action
             android:id="@+id/action_changingUserFragment_to_mainFragment"
             app:destination="@id/mainFragment"
@@ -72,9 +72,9 @@
     </fragment>
     <fragment
         android:id="@+id/uploadFragment"
-        android:name="com.haksoft.androidbootchamp.Fragments.UploadFragment"
+        android:name="com.haksoft.androidbootchamp.Fragments.AddspendFragment"
         android:label="fragment_upload"
-        tools:layout="@layout/fragment_upload" >
+        tools:layout="@layout/fragment_addspend" >
         <action
             android:id="@+id/action_uploadFragment_to_mainFragment"
             app:destination="@id/mainFragment"

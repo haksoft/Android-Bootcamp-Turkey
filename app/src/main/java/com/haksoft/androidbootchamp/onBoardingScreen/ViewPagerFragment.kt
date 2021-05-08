@@ -17,7 +17,7 @@ class ViewPagerFragment : Fragment() {
         val fragmentList = arrayListOf<Fragment>(
             OnBoardingScreenOne(),
             OnBoardingScreenTwo(),
-            OnBoardingScreenLast()
+            OnBoardingScreenTree()
 
         )
         val adapter = ViewPagerAdapter(fragmentList,requireActivity().supportFragmentManager,lifecycle)

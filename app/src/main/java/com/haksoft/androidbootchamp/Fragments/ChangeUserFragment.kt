@@ -12,16 +12,16 @@ import androidx.appcompat.widget.Toolbar
 import androidx.navigation.Navigation
 import com.haksoft.androidbootchamp.Activity.MainActivity
 
-import com.haksoft.androidbootchamp.databinding.FragmentChangingUserBinding
+import com.haksoft.androidbootchamp.databinding.FragmentChangeUserBinding
 
-class ChangingUserFragment : Fragment() {
+class ChangeUserFragment : Fragment() {
 
-    private lateinit var binding: FragmentChangingUserBinding
+    private lateinit var binding: FragmentChangeUserBinding
     var radioButtonChoice : Int = 0
     private lateinit var preferences : SharedPreferences
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        val binding = FragmentChangingUserBinding.inflate(inflater,container,false)
+        val binding = FragmentChangeUserBinding.inflate(inflater,container,false)
         val toolBarChangingUser : Toolbar = binding.toolBarChangingUser
         val buttonKaydet : Button = binding.buttonKaydet
         preferences = requireActivity().getSharedPreferences("com.haksoft.androidbootchamp", Context.MODE_PRIVATE)

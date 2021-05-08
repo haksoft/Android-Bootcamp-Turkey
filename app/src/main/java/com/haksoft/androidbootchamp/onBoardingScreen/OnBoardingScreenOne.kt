@@ -8,10 +8,10 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.viewpager2.widget.ViewPager2
 import com.haksoft.androidbootchamp.R
-import com.haksoft.androidbootchamp.databinding.FragmentOnBoardingScreenBinding
+import com.haksoft.androidbootchamp.databinding.FragmentOnBoardingScreenOneBinding
 
 class OnBoardingScreenOne : Fragment() {
-    private lateinit var binding: FragmentOnBoardingScreenBinding
+    private lateinit var binding: FragmentOnBoardingScreenOneBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,7 +23,7 @@ class OnBoardingScreenOne : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val binding = FragmentOnBoardingScreenBinding.inflate(inflater,container,false)
+        val binding = FragmentOnBoardingScreenOneBinding.inflate(inflater,container,false)
         val buttontoSecondOnBoarding : Button = binding.buttonFirtsOnBoarding
         val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPager)
          buttontoSecondOnBoarding.setOnClickListener {
