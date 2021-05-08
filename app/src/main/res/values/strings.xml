@@ -23,7 +23,7 @@
     <string name="harcama_ekle">Harcama Ekle</string>
     <string name="aciklama">Açıklama</string>
     <string name="harcama">Harcama</string>
-    <string name="ekle">Harcama Ekle</string>
+    <string name="ekle">Kaydet</string>
     <string name="harcama_detayi">Harcama Detayı</string>
     <string name="elektrik">Elektrik</string>
 </resources>

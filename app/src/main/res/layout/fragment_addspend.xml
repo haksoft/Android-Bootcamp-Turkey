@@ -83,33 +83,33 @@
         android:id="@+id/radioGroupHarcama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:layout_gravity="center"
         android:layout_marginTop="25dp"
-        android:layout_marginStart="40dp"
-        >
+        android:orientation="horizontal">
+
         <RadioButton
             android:id="@+id/radioButtonFatura"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:text="@string/fatura"
             android:buttonTint="@color/baseColor"
-            />
+            android:text="@string/fatura" />
+
         <RadioButton
             android:id="@+id/radioButtonKira"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:text="@string/kira"
-            android:buttonTint="@color/baseColor"/>
+            android:buttonTint="@color/baseColor"
+            android:text="@string/kira" />
 
         <RadioButton
             android:id="@+id/radioButtonDiger"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:text="@string/diger"
-            android:buttonTint="@color/baseColor"/>
+            android:buttonTint="@color/baseColor"
+            android:text="@string/diger" />
     </RadioGroup>
 
     <RadioGroup
@@ -160,11 +160,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="15dp"
+        android:backgroundTint="@color/baseColor"
         android:text="@string/ekle"
-        app:cornerRadius="15dp"
-        android:textSize="15sp"
         android:textColor="@color/white"
-        android:backgroundTint="@color/baseColor" />
+        android:textSize="15sp"
+        app:cornerRadius="15dp" />
 
 
 </LinearLayout>
